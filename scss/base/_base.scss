@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: $font-main;
+  background-color: $background;
+  color: $white;
+  font-size: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0px 15px;
+  // real width - 1240px, but reset file includes box-sizing: border-box;
+  max-width: 1270px;
+}
