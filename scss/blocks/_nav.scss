@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 80px;
+}
+
+.nav__logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 80px;
+
+  a {
+    position: relative;
+
+    &.active::after,
+    &:hover::after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 30px;
+      height: 4px;
+      background-color: #c4c4c4;
+      border-radius: 50px;
+    }
+  }
+}
+
+.nav__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.nav__btn {
+  @include btn;
+}
