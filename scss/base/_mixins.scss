@@ -1,0 +1,15 @@
+@mixin btn {
+  padding: 13px 44px;
+  background: linear-gradient(172deg, #ff7b4e 0%, #ff584e 100%);
+  border-radius: 100px;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    filter: saturate(1.5);
+  }
+
+  &:active {
+    position: relative;
+    bottom: -1px;
+  }
+}
