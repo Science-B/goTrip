@@ -1,0 +1,23 @@
+.customers {
+  padding-top: 100px;
+  padding-bottom: 115px;
+}
+
+.customers__row {
+  display: flex;
+  column-gap: 68px;
+}
+
+.customers__img {
+  border-radius: 35px;
+}
+.customers__content {
+  max-width: 565px;
+}
+
+.customers__title {
+  color: $dark;
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}

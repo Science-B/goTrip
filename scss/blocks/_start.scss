@@ -1,0 +1,58 @@
+.start {
+  padding-top: 115px;
+  padding-bottom: 135px;
+  text-align: center;
+}
+
+.start__wrapper {
+  position: relative;
+  background-color: $white;
+  border-radius: 60px;
+  min-height: 581px;
+
+  &::before {
+    content: "";
+    width: 63px;
+    height: 83px;
+    position: absolute;
+    left: 74px;
+    bottom: 56px;
+    background-image: url("../imgs/main/start/decor1.svg");
+  }
+
+  &::after {
+    content: "";
+    width: 63px;
+    height: 83px;
+    position: absolute;
+    right: 74px;
+    top: 56px;
+    background-image: url("../imgs/main/start/decor2.svg");
+  }
+}
+
+.start__title {
+  position: relative;
+  padding-top: 116px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: $dark;
+  font-size: 45px;
+  z-index: 9;
+}
+
+.start__text {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgba($dark, 0.5);
+}
+
+.start__btn {
+  @include btn;
+  position: relative;
+  padding: 25px 55px;
+  font-size: 20px;
+  font-weight: 600;
+  z-index: 9;
+}

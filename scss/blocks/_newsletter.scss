@@ -1,0 +1,38 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 106px;
+}
+
+.newsletter__contnet {
+}
+
+.newsletter__title {
+  color: $dark;
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.newsletter__form {
+  display: flex;
+  column-gap: 20px;
+  padding: 12px 15px 12px 46px;
+  background-color: $white;
+  border-radius: 35px;
+}
+
+.newsletter__input {
+  font-size: 24px;
+  color: rgba($dark, 0.5);
+}
+
+.newsletter__btn {
+  @include btn;
+  padding: 34px 87px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 35px;
+}

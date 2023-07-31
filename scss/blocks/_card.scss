@@ -1,0 +1,37 @@
+.card {
+  max-width: 490px;
+}
+
+.card__row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  column-gap: 33px;
+}
+
+.card__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 134px;
+  height: 134px;
+  background: linear-gradient(172deg, #ff7b4e 0%, #ff584e 100%);
+  border-radius: 50%;
+}
+
+.card__name {
+  font-size: 33px;
+  color: $dark;
+}
+
+.card__place {
+  color: rgba($dark, 0.5);
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card__text {
+  color: rgba($dark, 0.5);
+  font-size: 22px;
+  margin-bottom: 22px;
+}
