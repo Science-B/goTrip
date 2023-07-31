@@ -4,6 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>GoTrip</title>
   </head>
   <body>
@@ -43,5 +57,140 @@
         </div>
       </div>
     </header>
+    <main>
+      <section class="destinations">
+        <h2 class="visually-hidden">Destinations</h2>
+        <div class="container-right">
+          <div class="destinations__row">
+            <div class="destinations__content">
+              <h2 class="destinations__title">
+                Choice Of <br />
+                <span> Destinations</span>
+              </h2>
+              <p class="destinations__text">
+                explore the beauty of god's earth in a beautiful forest and have
+                fun
+              </p>
+              <button class="destinations__btn">Explore Now</button>
+            </div>
+            <div class="destinations__slider">
+              <div class="slider">
+                <div class="owl-carousel">
+                  <img
+                    class="slider__item"
+                    src="./imgs/main/destinations/slider1.jpg"
+                    alt="Slide 1"
+                  />
+                  <img
+                    class="slider__item"
+                    src="./imgs/main/destinations/slider2.jpg"
+                    alt="Slide 2"
+                  />
+                  <img
+                    class="slider__item"
+                    src="./imgs/main/destinations/slider3.jpg"
+                    alt="Slide 3"
+                  />
+                  <img
+                    class="slider__item"
+                    src="./imgs/main/destinations/slider5.jpg"
+                    alt="Slide 4"
+                  />
+                  <img
+                    class="slider__item"
+                    src="./imgs/main/destinations/slider6.jpg"
+                    alt="Slide 5"
+                  />
+                </div>
+                <button class="slider__btn slider__btn--prev">
+                  <img src="./imgs/main/destinations/arrow-left.svg" alt="" />
+                </button>
+                <button class="slider__btn slider__btn--next">
+                  <img src="./imgs/main/destinations/arrow-right.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="customers">
+        <div class="container">
+          <h2 class="visually-hidden">Customers</h2>
+          <div class="customers__row">
+            <img src="./imgs/main/customers/img.jpg" class="customers__img" />
+            <div class="customers__content">
+              <h2 class="customers__title">What do customers say about us?</h2>
+              <div class="card">
+                <div class="card__row">
+                  <img
+                    src="./imgs/main/customers/avatar.png"
+                    class="card__img"
+                  />
+                  <div class="card__info">
+                    <div class="card__name">Alpanasap</div>
+                    <div class="card__place">Japung, Indonesia</div>
+                  </div>
+                </div>
+                <p class="card__text">
+                  Very satisfying service makes it comfortable, a beautiful
+                  place in the world.
+                </p>
+                <div class="card__rate">
+                  <img src="./imgs/main/customers/star1.svg" alt="rate-star" />
+                  <img src="./imgs/main/customers/star1.svg" alt="rate-star" />
+                  <img src="./imgs/main/customers/star1.svg" alt="rate-star" />
+                  <img src="./imgs/main/customers/star2.svg" alt="rate-star" />
+                  <img src="./imgs/main/customers/star2.svg" alt="rate-star" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="start">
+        <div class="container">
+          <div class="start__wrapper">
+            <h2 class="visually-hidden">Get Started</h2>
+            <h2 class="start__title">
+              Prepare Yourself And <br />
+              Start Exploring With Us.
+            </h2>
+            <p class="start__text">There's the best discount for you today.</p>
+            <button class="start__btn">Get Started</button>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter__contnet">
+            <h2 class="newsletter__title">
+              Subscribe <br />
+              To Our newsletter
+            </h2>
+            <form class="newsletter__form">
+              <input
+                placeholder="Yourmail@mail.com"
+                type="email"
+                class="newsletter__input"
+              />
+              <button type="submit" class="newsletter__btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
