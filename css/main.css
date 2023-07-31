@@ -243,6 +243,9 @@ a {
   font-weight: 700;
   font-size: 20px;
 }
+.nav__logo--footer {
+  color: #ff7c4e;
+}
 
 .nav__list {
   display: flex;
@@ -262,6 +265,12 @@ a {
   background-color: #c4c4c4;
   border-radius: 50px;
 }
+.nav__list--footer a {
+  color: rgba(15, 31, 28, 0.5);
+}
+.nav__list--footer a:hover::after {
+  display: none;
+}
 
 .nav__login {
   display: flex;
@@ -269,6 +278,13 @@ a {
   align-items: center;
   -moz-column-gap: 25px;
        column-gap: 25px;
+}
+.nav__login--footer {
+  -moz-column-gap: 46px;
+       column-gap: 46px;
+}
+.nav__login--footer a {
+  color: rgba(15, 31, 28, 0.5);
 }
 
 .nav__btn {
@@ -563,4 +579,8 @@ a {
 .newsletter__btn:active {
   position: relative;
   bottom: -1px;
+}
+
+.footer__row {
+  padding-bottom: 87px;
 }/*# sourceMappingURL=main.css.map */
