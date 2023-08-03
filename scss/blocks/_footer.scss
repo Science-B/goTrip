@@ -1,3 +1,9 @@
 .footer__row {
   padding-bottom: 87px;
+
+  @include mediaTablet {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
 }

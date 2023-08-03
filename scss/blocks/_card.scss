@@ -7,6 +7,11 @@
   align-items: center;
   margin-bottom: 60px;
   column-gap: 33px;
+
+  @media screen and (max-width: 460px) {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
 }
 
 .card__img {
@@ -22,16 +27,40 @@
 .card__name {
   font-size: 33px;
   color: $dark;
+  @media screen and (max-width: 520px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 460px) {
+    text-align: center;
+  }
 }
 
 .card__place {
   color: rgba($dark, 0.5);
   font-size: 25px;
   font-weight: 400;
+
+  @media screen and (max-width: 520px) {
+    font-size: 16px;
+  }
 }
 
 .card__text {
   color: rgba($dark, 0.5);
   font-size: 22px;
   margin-bottom: 22px;
+
+  @media screen and (max-width: 520px) {
+    font-size: 16px;
+  }
+}
+
+.card__rate {
+  display: flex;
+
+  @media screen and (max-width: 520px) {
+    width: 25px;
+    height: 25px;
+  }
 }

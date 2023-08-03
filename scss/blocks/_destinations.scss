@@ -2,11 +2,20 @@
   padding-top: 96px;
   padding-bottom: 100px;
   overflow-x: hidden;
+
+  @include media-850 {
+    padding: 40px 0 50px;
+  }
 }
 
 .destinations__row {
   display: flex;
   column-gap: 49px;
+
+  @include media-850 {
+    flex-direction: column;
+    row-gap: 30px;
+  }
 }
 
 .destinations__content {
@@ -20,6 +29,16 @@
 
   span {
     font-size: 55px;
+
+    @include media-850 {
+      font-size: 20px;
+      display: block;
+    }
+  }
+
+  @include media-850 {
+    margin-bottom: 10px;
+    font-size: 35px;
   }
 }
 
@@ -27,6 +46,11 @@
   font-size: 25px;
   color: rgb($dark, 0.5);
   margin-bottom: 60px;
+
+  @include media-850 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
 }
 
 .destinations__btn {
@@ -34,9 +58,22 @@
   padding: 25px 44px;
   font-size: 20px;
   font-weight: 600;
+
+  @include media-850 {
+    font-size: 16px;
+    padding: 20px 30px;
+  }
 }
 
 .destinations__slider {
   width: 1110px;
   flex-shrink: 0;
+
+  @media screen and (max-width: 1200px) {
+    width: 900px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 600px;
+  }
 }

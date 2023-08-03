@@ -2,6 +2,10 @@
   padding-top: 115px;
   padding-bottom: 135px;
   text-align: center;
+
+  @media screen and (max-width: 850px) {
+    padding: 50px 0px;
+  }
 }
 
 .start__wrapper {
@@ -29,6 +33,12 @@
     top: 56px;
     background-image: url("../imgs/main/start/decor2.svg");
   }
+
+  @media screen and (max-width: 850px) {
+    min-height: 380px;
+    padding: 20px 15px;
+    border-radius: 40px;
+  }
 }
 
 .start__title {
@@ -38,7 +48,12 @@
   text-align: center;
   color: $dark;
   font-size: 45px;
-  z-index: 9;
+  z-index: 1;
+
+  @media screen and (max-width: 850px) {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
 }
 
 .start__text {
@@ -46,6 +61,11 @@
   font-size: 30px;
   font-weight: 400;
   color: rgba($dark, 0.5);
+
+  @media screen and (max-width: 850px) {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
 }
 
 .start__btn {
@@ -54,5 +74,10 @@
   padding: 25px 55px;
   font-size: 20px;
   font-weight: 600;
-  z-index: 9;
+  z-index: 1;
+
+  @include media-850 {
+    font-size: 16px;
+    padding: 20px 30px;
+  }
 }

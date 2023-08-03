@@ -20,10 +20,14 @@ a {
 
 .container-right {
   padding-left: calc((100% - $container-width) / 2 + $container-padding);
+
+  @include mediaСontainerRight {
+    padding-left: 15px;
+  }
 }
 
 .none {
-  display: none;
+  display: none !important;
 }
 
 .visually-hidden {
@@ -35,4 +39,8 @@ a {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+.no-scroll {
+  overflow-y: hidden;
 }
