@@ -7,7 +7,7 @@
       margin-top: 0;
       height: 456px;
 
-      @media screen and (max-width: 850px) {
+      @include media-850 {
         height: 304px;
       }
 

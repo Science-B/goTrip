@@ -37,3 +37,15 @@
     @content;
   }
 }
+
+@mixin mediaMobilePlus {
+  @media screen and (max-width: $mobilePlus) {
+    @content;
+  }
+}
+
+@mixin mediaMobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
