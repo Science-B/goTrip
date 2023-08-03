@@ -2,7 +2,7 @@
   padding-top: 100px;
   padding-bottom: 115px;
 
-  @media screen and (max-width: 850px) {
+  @include media-850 {
     padding: 50px 0 60px;
   }
 }
@@ -31,7 +31,7 @@
   font-weight: 500;
   margin-bottom: 35px;
 
-  @media screen and (max-width: 850px) {
+  @include media-850 {
     margin-bottom: 25px;
     font-size: 35px;
   }

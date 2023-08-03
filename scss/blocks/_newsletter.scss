@@ -35,7 +35,7 @@
     column-gap: 10px;
   }
 
-  @media screen and (max-width: 460px) {
+  @include mediaMobile {
     flex-direction: column;
     row-gap: 10px;
   }
@@ -46,7 +46,7 @@
   color: rgba($dark, 0.5);
 
   &::placeholder {
-    @media screen and (max-width: 460px) {
+    @include mediaMobile {
       text-align: center;
       font-size: 16px;
     }

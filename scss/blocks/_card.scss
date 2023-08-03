@@ -8,7 +8,7 @@
   margin-bottom: 60px;
   column-gap: 33px;
 
-  @media screen and (max-width: 460px) {
+  @include mediaMobile {
     flex-direction: column;
     margin-bottom: 30px;
   }
@@ -27,11 +27,12 @@
 .card__name {
   font-size: 33px;
   color: $dark;
-  @media screen and (max-width: 520px) {
+
+  @include mediaMobilePlus {
     font-size: 20px;
   }
 
-  @media screen and (max-width: 460px) {
+  @include mediaMobile {
     text-align: center;
   }
 }
@@ -41,7 +42,7 @@
   font-size: 25px;
   font-weight: 400;
 
-  @media screen and (max-width: 520px) {
+  @include mediaMobilePlus {
     font-size: 16px;
   }
 }
@@ -51,7 +52,7 @@
   font-size: 22px;
   margin-bottom: 22px;
 
-  @media screen and (max-width: 520px) {
+  @include mediaMobilePlus {
     font-size: 16px;
   }
 }
@@ -59,7 +60,7 @@
 .card__rate {
   display: flex;
 
-  @media screen and (max-width: 520px) {
+  @include mediaMobilePlus {
     width: 25px;
     height: 25px;
   }
