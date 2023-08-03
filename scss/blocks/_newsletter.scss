@@ -1,13 +1,15 @@
 .newsletter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   padding-bottom: 106px;
 
   @include media-850 {
     padding: 25px 0 30px;
   }
+}
+
+.newsletter__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .newsletter__title {

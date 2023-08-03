@@ -841,16 +841,18 @@ a {
 }
 
 .newsletter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   padding-bottom: 106px;
 }
 @media screen and (max-width: 850px) {
   .newsletter {
     padding: 25px 0 30px;
   }
+}
+
+.newsletter__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .newsletter__title {
