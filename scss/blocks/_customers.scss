@@ -1,14 +1,23 @@
 .customers {
   padding-top: 100px;
   padding-bottom: 115px;
+
+  @media screen and (max-width: 850px) {
+    padding: 50px 0 60px;
+  }
 }
 
 .customers__row {
   display: flex;
   column-gap: 68px;
+
+  @media screen and (max-width: 980px) {
+    flex-direction: column;
+  }
 }
 
 .customers__img {
+  max-width: 478px;
   border-radius: 35px;
 }
 
@@ -21,4 +30,9 @@
   font-size: 45px;
   font-weight: 500;
   margin-bottom: 35px;
+
+  @media screen and (max-width: 850px) {
+    margin-bottom: 25px;
+    font-size: 35px;
+  }
 }
