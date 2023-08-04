@@ -341,6 +341,7 @@ a {
   align-items: center;
   row-gap: 60px;
   font-size: 22px;
+  text-align: center;
 }
 .nav--mobile .nav__logo {
   font-size: 36px;
